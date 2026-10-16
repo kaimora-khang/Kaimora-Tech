@@ -503,6 +503,68 @@ body {
     padding: 1.5rem;
   }
 }
+/* ================= HIỆU ỨNG CYBER TECH & GLASSMORPHISM ================= */
+header {
+  background: rgba(13, 27, 42, 0.85) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border-bottom: 1px solid rgba(0, 210, 255, 0.2) !important;
+}
+
+header .logo, header h1 {
+  background: linear-gradient(90deg, #00f2fe, #4facfe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 15px rgba(0, 242, 254, 0.4);
+}
+
+/* Nâng cấp khung Banner chính */
+.hero, .banner {
+  background: radial-gradient(circle at top right, rgba(0, 210, 255, 0.18), transparent),
+              linear-gradient(135deg, #0d1b2a 0%, #1b263b 100%) !important;
+  border: 1px solid rgba(0, 210, 255, 0.3) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), 0 0 25px rgba(0, 210, 255, 0.2) !important;
+  border-radius: 16px !important;
+}
+
+/* Tiêu đề chữ neon phát sáng */
+.hero h1, .banner h1 {
+  background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 25px rgba(79, 172, 254, 0.4);
+  font-weight: 800 !important;
+}
+
+/* Nút CTA xem sản phẩm có hào quang */
+.hero button, .hero a.btn, .banner a {
+  background: linear-gradient(135deg, #0072ff 0%, #00c6ff 100%) !important;
+  box-shadow: 0 4px 15px rgba(0, 198, 255, 0.4) !important;
+  border-radius: 30px !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+  border: none !important;
+}
+
+.hero button:hover, .hero a.btn:hover, .banner a:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 6px 25px rgba(0, 198, 255, 0.7) !important;
+}
+
+/* Card Danh mục công nghệ tương tác nổi */
+.category-card, .categories > div {
+  border-radius: 12px !important;
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  cursor: pointer;
+}
+
+.category-card:hover, .categories > div:hover {
+  transform: translateY(-5px);
+  border-color: #00c6ff !important;
+  box-shadow: 0 12px 24px -10px rgba(0, 114, 255, 0.3) !important;
+}
 /* ================= TỐI ƯU MOBILE ================= */
 @media (max-width: 768px) {
   body {
